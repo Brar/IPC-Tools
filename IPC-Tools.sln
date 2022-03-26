@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1AD52E0-7E8E-48CA-AA35-0DC3B76051B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPC-Tools.TabularData", "src\TabularData\IPC-Tools.TabularData.csproj", "{8C8F6165-9443-49E8-8B32-E8D18CF66CC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4C24B4CF-CD94-4A96-BA9B-1C1D0E872181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPC-Tools.TabularData.Tests", "test\TabularData\IPC-Tools.TabularData.Tests.csproj", "{7827851D-72BC-4FAA-9578-1DA490595FDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C8F6165-9443-49E8-8B32-E8D18CF66CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8F6165-9443-49E8-8B32-E8D18CF66CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8F6165-9443-49E8-8B32-E8D18CF66CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8F6165-9443-49E8-8B32-E8D18CF66CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7827851D-72BC-4FAA-9578-1DA490595FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7827851D-72BC-4FAA-9578-1DA490595FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7827851D-72BC-4FAA-9578-1DA490595FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7827851D-72BC-4FAA-9578-1DA490595FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C8F6165-9443-49E8-8B32-E8D18CF66CC4} = {E1AD52E0-7E8E-48CA-AA35-0DC3B76051B8}
+		{7827851D-72BC-4FAA-9578-1DA490595FDD} = {4C24B4CF-CD94-4A96-BA9B-1C1D0E872181}
+	EndGlobalSection
+EndGlobal
